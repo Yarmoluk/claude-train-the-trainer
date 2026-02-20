@@ -83,7 +83,19 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Course Description: course-description.md
-  - Chapters: chapters/index.md
+  - Chapters:
+    - Overview: chapters/index.md
+    - Foundation:
+      - "Ch 1: Understanding Claude": chapters/ch01.md
+      - "Ch 2: Prompt Engineering Pedagogy": chapters/ch02.md
+    - Design:
+      - "Ch 3: Workshop Design and Facilitation": chapters/ch03.md
+      - "Ch 4: Content Adaptation for Audiences": chapters/ch04.md
+    - Operations:
+      - "Ch 5: Assessment Design": chapters/ch05.md
+      - "Ch 6: Quality Assurance for Training": chapters/ch06.md
+      - "Ch 7: Scaling Training Programs": chapters/ch07.md
+      - "Ch 8: Measuring Outcomes": chapters/ch08.md
 
 extra:
   social:
